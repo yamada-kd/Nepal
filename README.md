@@ -6,6 +6,7 @@ Nepal is a profile comparison aligner with optimized scoring function for remote
 This package include two program such as nepal and pssmcompiler.
 ### Nepal
 Nepal accepts pairwise PSSM text file as input and outputs alignment in fasta format.<br>
+#### usage
 $ nepal
 ### pssmcompiler
 ## Reference
