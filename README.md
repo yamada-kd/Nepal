@@ -1,10 +1,11 @@
 # Nepal
 **N**eural network **E**nhanced **P**rofile **A**lignment **L**ibrary.
 ## Abstract
-Nepal is a profile comparison aligner with optimized scoring function.
+Nepal is a profile comparison aligner with optimized scoring function for remote sequence alignment.
 ## Usage
 This package include two program such as nepal and pssmcompiler.
 ### Nepal
+Nepal accepts pairwise PSSM text file as input and outputs alignment in fasta format.
 $ nepal
 ### pssmcompiler
 ## Reference
