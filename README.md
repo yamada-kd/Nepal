@@ -1,4 +1,5 @@
 # Nepal
+Neural network Enhanced Profile Alignment Library.
 ## Abstract
 Nepal is a profile comparison aligner with optimized scoring function.
 ## Usage
