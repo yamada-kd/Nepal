@@ -11,4 +11,4 @@ $ nepal --input [PSSM text file]
 The python program pssmcompiler accepts a pairwise sequence fasta file and outputs Nepal readable profile file. You need to set the correct directory of a binary of deltablast, cdd_delta and a pseudo dataset in advance of use of it.<br><br>
 $ pssmcompiler -i [pairwise sequence fasta file]
 ## Reference
-Yamada KD, Improving quality of pairwise profile alignment by optimizing scoring function of dynamic programming using derivative free neural network
+Yamada KD, Improving quality of pairwise profile alignment by optimizing scoring function of dynamic programming using derivative free neural network, 2017
