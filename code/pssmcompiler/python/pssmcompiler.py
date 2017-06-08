@@ -3,6 +3,7 @@
 import argparse,re,os,uuid,subprocess
 
 def main():
+	# Change the directory of "-d", "-r" and "-b" depending on your environment.
 	parser=argparse.ArgumentParser(description="This program converts a fasta file to Nepal readable PSSM text file.")
 	parser.add_argument("-i",type=str,dest="input",required=True,help='')
 	parser.add_argument("-d",type=str,dest="db",required=False,default="../pseudodb/pseudodb",help="")
