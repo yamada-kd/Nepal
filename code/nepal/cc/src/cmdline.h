@@ -50,19 +50,19 @@ void verboseusage()
 	*/
 	
 	std::cout<<
-"\nDESCRIPTOIN\n"
-" nepal version ";
+"\n"
+" Nepal version ";
 	std::cout<<version<<
 ":\n"
+"\n"
 " The program aligns input pairwise sequences by profile semi-global\n"
 " alignment method with improved scoring function which is optimized by\n"
 " neural network with CMA-ES.\n"
-"\nUSAGE\n"
-" nepal --input <fasta> [options]\n"
-" --input    Input pairwise sequence fasta file.\n"
+"\n Usage: nepal --input <fasta> [options]\n"
 "\n"
-"OPTIONAL ARGUMENTS\n"
-" --help     Show this help message.\n"
+" Options\n"
+"   --input    input pairwise pssm file.\n"
+"   --help     this help message.\n"
 "\n";
 //	exit(1);
 }

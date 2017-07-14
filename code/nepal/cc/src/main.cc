@@ -256,20 +256,26 @@ void align(inputdata &datai,inputdata &dataj,const float w1[41][UNIT],const floa
 			}
 			for(int i=0;i<1;i++)
 			{
-				for(int j=0;j<UNIT+1;j++)
+				for(int t=0;t<41;t++)
 				{
-					for(int t=0;t<41;t++)
+					for(int j=0;j<UNIT+1;j++)
 					{
 						middle[i][j]+=first[i][t]*w1[t][j];
 					}
+				}
+			}
+			/* ReLU */
+			for(int i=0;i<1;i++)
+			{
+				for(int j=0;j<UNIT+1;j++)
+				{
 					if(middle[i][j]<0)
 					{
-						middle[i][j]=0; /* ReLU */
+						middle[i][j]=0;
 					}
 				}
 			}
 			middle[0][UNIT]=1;
-			similarity=0;
 			for(int i=0;i<UNIT+1;i++)
 			{
 				similarity+=(middle[0][i]*w2[i][0]);
