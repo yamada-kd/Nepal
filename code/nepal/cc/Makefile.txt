@@ -1,2 +1,0 @@
-nepal: script/execution/benchmark/test/nepal/base/main.cc
-	g++ -O1 -fopenmp -Wall -std=c++11 script/execution/benchmark/test/nepal/base/main.cc -o script/execution/benchmark/test/nepal/base/nepal
