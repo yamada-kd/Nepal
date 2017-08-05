@@ -63,4 +63,6 @@
 /texinfo.tex
 
 /config.h
+/config.log
+/config.status
 /Makefile
