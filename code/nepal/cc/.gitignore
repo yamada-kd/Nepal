@@ -62,5 +62,5 @@
 
 /texinfo.tex
 
-config.*
+/config.h
 /Makefile
