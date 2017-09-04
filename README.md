@@ -18,4 +18,4 @@ The python program, pssmcompiler accepts a pairwise sequence fasta file and outp
 $ pssmcompiler -i [pairwise sequence fasta file]
 
 ## Reference
-Yamada KD, Optimizing scoring function of dynamic programming of pairwise profile alignment using derivative free neural network, arXiv, 2017
+Yamada KD, Optimizing scoring function of dynamic programming of pairwise profile alignment using derivative free neural network, BiorXiv, 2017
