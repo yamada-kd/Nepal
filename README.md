@@ -19,4 +19,4 @@ The python program, pssmcompiler accepts a pairwise sequence fasta file and outp
 Dfnn computes inference of derivative free neural network with CMA-ES. Using the program, the parameters for Nepal was obtained. To compile the program, your computer requires a library "eigen3" installed and C++ compiler.
 
 ## Reference
-Yamada KD, Derivative free neural network for optimizing scoring function of dynamic programming of pairwise profile alignment, Algorithms for molecular biology, in revision, 2017
+Yamada KD, Optimizing scoring function of dynamic programming of pairwise profile alignment using derivative free neural network, bioRxiv, 182493, 2017
